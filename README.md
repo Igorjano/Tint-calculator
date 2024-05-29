@@ -10,7 +10,7 @@ I wrote it for my work and it made my tinting process so much easier.
 - Display results in different units (Ounce 384 or Ounce Y/48/384).
 - Clear inputs and results to start a new calculation.
 
-## Exaples
+## Examples
 
 ![calc_1](https://github.com/Igorjano/Tint-calculator/assets/131443382/c3560552-e63a-4b9a-9341-452b9eb49dd0) 
 ![calc_2](https://github.com/Igorjano/Tint-calculator/assets/131443382/992b738c-043f-4033-93fd-42d3d7131ef4)
