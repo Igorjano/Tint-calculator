@@ -2,8 +2,10 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import Radiobutton
 from tkinter import messagebox
+
 from PIL import Image, ImageTk
 from collections import defaultdict
+
 
 def set_tint_num(*arg):
     """
@@ -194,8 +196,8 @@ def clear_result_labels():
 def clear_all_labels():
     """Clears all labels from the UI and resets the input fields and controls."""
 
-    [clear_labels(labels_list) for labels_list in labels_dict.values()]
     clear_result_labels()
+    [clear_labels(labels_list) for labels_list in labels_dict.values()]
     volume_ent.delete(0, END)
     ounce_384["state"] = "disabled"
     ounce_Y["state"] = "disabled"
